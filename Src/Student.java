@@ -10,6 +10,7 @@ public class Student {
         this.age = age;
         this.course = course;
     }
+    
 
     // Getters and Setters
     public int getId() { return id; }
