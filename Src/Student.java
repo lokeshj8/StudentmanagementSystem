@@ -9,7 +9,7 @@ public class Student {
         this.name = name;
         this.age = age;
         this.course = course;
-        
+        this.register=register;
     }
     
 
@@ -18,4 +18,5 @@ public class Student {
     public String getName() { return name; }
     public int getAge() { return age; }
     public String getCourse() { return course; }
+    public String getRegister(){return register;}
 }
